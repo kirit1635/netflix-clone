@@ -222,6 +222,28 @@ footer .questions {
     color: white;
 }
 
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+/* --- Added Disclaimer Style --- */
+.disclaimer {
+    text-align: center;
+    padding: 20px 0;
+    color: #888;
+    /* Light grey color */
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
 @media screen and (max-width: 1300px) {
 
     nav {
@@ -274,27 +296,9 @@ footer .questions {
         align-items: center;
     }
 
-
-}
-
-
-
-@media screen and (max-width: 1300px) {
-
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
-}
-
-.footer a {
-    font-size: 14px;
-    color: white;
-}
-
-.footer-item {
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
 }
